@@ -13,9 +13,21 @@
  * @version   CVS: $Id: OpeningFunctionBraceBsdAllmanSniff.php,v 1.8
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
+/**
+ * There is some constants
+ *
+ * @file dz0.php
+ */
 
-require 'functions.php';
+CONST TEST_CONSTANTA = 'asd';
+$user_name = 'Igor';
 
-if (1==1) {
-    echo 'hi';
+/**
+ * Description.
+ *
+ * @return string
+ */
+function Show_something()
+{
+    return 'SOMETHING';
 }
